@@ -1,0 +1,6 @@
+#!/usr/bin/env perl
+
+$cmtc =  shift || $CMTC || '#';
+$ENV{CMTC}=$cmtc;
+
+exec "ucmt | fmt | cmt"; 

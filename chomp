@@ -1,0 +1,6 @@
+#!/usr/bin/env perl
+
+while (<STDIN>) {
+  s/\s+$//g;
+  print "$_\n";
+}

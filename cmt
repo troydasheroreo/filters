@@ -1,0 +1,8 @@
+#!/usr/bin/env perl
+
+$cmtc =  shift || $CMTC || '#';
+
+while (<STDIN>) {
+  chomp;
+  print "# $_\n";
+}

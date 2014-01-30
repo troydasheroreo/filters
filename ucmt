@@ -7,6 +7,6 @@ $cmtc =  shift;
 while (<STDIN>) {
   chomp;
   $cmtc = substr($_,0,1) unless $cmtc;
-  s/^$cmtc+\s*//g;
+  s/^$cmtc+\s?//g;
   print "$_\n";
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-$cmtc =  shift || $CMTC || '#';
+$cmtc = '>';
 
 while (<STDIN>) {
   chomp;
